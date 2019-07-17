@@ -67,7 +67,7 @@ Written
 ```
 
 **6. It shows like this.**![image](picture or gif url)
-ex:![image](https://github.com/HLLINN/pi3_move_file/blob/master/movefile.gif)
+ex:![image](https://github.com/HLLINN/Pi_RC522/blob/master/Write.gif)
 
 ### STEPs about Reading with the RFID RC522:
 
@@ -101,7 +101,7 @@ pimylifeup
 ```
 
 **5. It shows like this.**![image](picture or gif url)
-ex:![image](https://github.com/HLLINN/pi3_move_file/blob/master/movefile.gif)
+ex:![image](https://github.com/HLLINN/Pi_RC522/blob/master/Read.gif)
 
 **7. Remark and explanation:**
 `reader = SimpleMFRC522()`
