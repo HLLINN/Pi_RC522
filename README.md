@@ -103,7 +103,7 @@ pimylifeup
 **5. It shows like this.**![image](picture or gif url)
 ex:![image](https://github.com/HLLINN/pi3_move_file/blob/master/movefile.gif)
 
-**7. Remark and explanation: **
+**7. Remark and explanation:**
 `reader = SimpleMFRC522()`
 This line is quite important as it calls SimpleMFRC522¡¦s creation function and then stores that
  into our reader variable as an object so we can interact with it later.
