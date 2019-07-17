@@ -22,11 +22,11 @@
 
 **5. Type the following Linux command into the terminal on your Raspberry Pi to restart your Raspberry Pi.`$sudo reboot`**
 
-**6. Make sure that it has been enabled. Type the following Linux command into the terminal on your Raspberry Pi to see if spi_bcm2835 is listed.`$lsmod | grep spi` **
+**6. Make sure that it has been enabled. Type the following Linux command into the terminal on your Raspberry Pi to see if spi_bcm2835 is listed.**`$lsmod | grep spi` 
 
 **7. Update Pi to ensure it's running the latest version of all the software  `$sudo apt-get update`  `$sudo apt-get upgrade`**
 
-**8. Install "python3-dev", "python-pip" and "git" packages for this guide on setting up your RFID reader. `$sudo apt-get install python3-dev python3-pip` **
+**8. Install "python3-dev", "python-pip" and "git" packages for this guide on setting up your RFID reader.** `$sudo apt-get install python3-dev python3-pip` 
 
 **9. Install the python library "spidev" which helps handle interactions with the SPI as we need it for Pi to interact with the RFID RC322. `$sudo pip3 install spidev` or `$sudo pip install spidev`**
 
@@ -34,7 +34,7 @@
 
 ### STEPs about writing with the RFID RC522:
 
-**1. `$mkdir ~/pi-rfid` **
+**1.** `$mkdir ~/pi-rfid`
 
 **2. `$cd ~/pi-rfid` then type `$sudo nano Write.py`**
 
@@ -71,7 +71,7 @@ ex:![image](https://github.com/HLLINN/pi3_move_file/blob/master/movefile.gif)
 
 ### STEPs about Reading with the RFID RC522:
 
-**1. `cd ~/pi-rfid` then type `sudo nano Read.py`  **
+**1.** `cd ~/pi-rfid` then type `sudo nano Read.py`
 
 **2. The content of the file"Read.py" as below:**
 ```
@@ -103,9 +103,6 @@ pimylifeup
 **5. It shows like this.**![image](picture or gif url)
 ex:![image](https://github.com/HLLINN/pi3_move_file/blob/master/movefile.gif)
 
-![image](picture or gif url)
-ex:![image](https://github.com/stephyang/CarouSell-test/blob/master/CarouSell-test-login.gif)
-
 **7. Remark and explanation: **
 `reader = SimpleMFRC522()`
 This line is quite important as it calls SimpleMFRC522’s creation function and then stores that
@@ -126,9 +123,9 @@ circuit to begin reading any RFID tag that is placed on top of the RC522 reader.
 
 ### Reference:
 
-**1.[How to setup a Raspberry Pi RFID RC522 Chip](https://pimylifeup.com/raspberry-pi-rfid-rc522/)
+**1.[How to setup a Raspberry Pi RFID RC522 Chip](https://pimylifeup.com/raspberry-pi-rfid-rc522/)**
 <br/>
-**2.[Raspberry Pi 筆記(25)：RFID 無線射頻辨識控制 LED](https://atceiling.blogspot.com/2017/02/raspberry-pi-rfid.html)
+**2.[Raspberry Pi 筆記(25)：RFID 無線射頻辨識控制 LED](https://atceiling.blogspot.com/2017/02/raspberry-pi-rfid.html)**
 <br/>
 
 
